@@ -16,6 +16,10 @@ add_library(${PROJECT_NAME}
         src/sorts.c
         src/ray.c
         src/mat.c
+        src/bounds.c
+        src/vec.c
+        src/kdtree.c
+        src/primitive.c
         src/io.c)
 
 
