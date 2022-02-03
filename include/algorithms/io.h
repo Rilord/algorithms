@@ -23,7 +23,16 @@
 #endif
 
 inline void mat4_print(mat4 matrix, FILE * __restrict ostream) {
+    char buff[16];
+    int i, h, cw[4], cwi;
 
+#define m 4
+#define n 4
+
+    fprintf(ostream, "Matrix (float%dx$d): " ALGO_PRINT_COLOR "\n", m, n);
+
+#undef m
+#undef n
 }
 
 #endif //ALGORITHMS_IO_H
